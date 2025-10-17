@@ -1,1 +1,1 @@
-# interior-desing-assistant-agent
+# interior-design-assistant-agent
