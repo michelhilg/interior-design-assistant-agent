@@ -118,7 +118,7 @@ async def run_agent(design_style: str, floorplan_image: str):
           f.write(base64.b64decode(img_result))
           image_paths.append(f"output/generated_image_{image_count}.png")
           image_count += 1
-          open_file(f"output/generated_image_{image_count}.png")
+          #open_file(f"output/generated_image_{image_count}.png")
 
     return {
       "image_paths": image_paths,

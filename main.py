@@ -7,7 +7,7 @@ load_dotenv()
 
 async def main():
 
-  result = await run_agent("1920s Art Deco", "example.jpg")
+  result = await run_agent("Estilo minimalista moderno com tons de mandeira", "floorplan.png")
 
   print("Final output:", result["final_output"])
   print("Image paths:", result["image_paths"])
